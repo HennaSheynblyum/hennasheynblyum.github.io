@@ -1,0 +1,32 @@
+<!-- cerner_2^5_2019 -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  		<title>Engineering Productivity</title>
+  </head>
+  <body>
+  		<h1 style="text-align:center">Engineering Productivity</h1>
+		<div style="position:relative; left:100px; width:80%"><h4>Productivity improvement of many of our major industries has become a national priority. Much of the responsibility for improving the productivity of resources within organizations will fall on the scrum masters and managers. Central to this challenge is the development and implementation of measurement and improvement strategies for the engineers themselves.</h4></div>
+		<div style="float:left; position:relative; left:100px; font-weight:600;">How to make your employees more productive?
+			 <ul>
+			  	 <div style="color: green; float:left; position:absolute; left:0px;">Dos:</div><br/><li><a href="#" onclick="PlayVideo('videos/care.mp4');">Take care of them</a></li><br/>
+				 <li><a href="#" onclick="PlayVideo('videos/welfare.mp4');">Look after their welfare</a></li><br/>
+				 <div style="color: red; float:left; position:absolute; left:0px;">Don'ts:</div><br/><li><a href="#" onclick="PlayVideo('videos/boost.mp4');">Boost them</a></li><br/>
+				 <li><a href="#" onclick="PlayVideo('videos/replace.mp4');">Think about replacing them</a></li><br/>
+				 <li><a href="#" onclick="PlayVideo('videos/egyptianMethod.mp4');">Use the Egyptian Method</li>
+			 </ul>
+		</div>
+		<div style="float:left;position:relative;left:100px; top:30px;">><video id="video" width="500" height="400" controls><source id="source"/></video></div>
+		<script>
+			video = document.getElementById('video');
+			source = document.getElementById('source');
+
+			function PlayVideo(srcVideo){
+				video.pause();
+				source.setAttribute('src', srcVideo);
+				video.load();
+				video.play(); 
+			}
+		</script>
+  </body>
+</html>
